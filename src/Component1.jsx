@@ -60,8 +60,14 @@ const Component1 = () => {
   return (
     <div className="component1">
       <div className="periods">
-        <div className="excercisePeriod">{excercisePeriod} s</div>
-        <div className="restingPeriod">{restingPeriod} s</div>
+        <div className="periodDivs">
+          <input type="number" min={0} />
+          <div className="excercisePeriod">{excercisePeriod} s</div>
+        </div>
+        <div className="periodDivs">
+          <input type="number" min={0} />
+          <div className="restingPeriod">{restingPeriod} s</div>
+        </div>
       </div>
       <hr />
       <div className="buttonDiv">

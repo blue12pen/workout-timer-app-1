@@ -6,7 +6,7 @@ body {
 
 .periods {
   display: flex;
-  gap: 2em;
+  gap: 5em;
 }
 
 .excercisePeriod,
@@ -21,10 +21,27 @@ body {
   font-size: 2rem;
   background-color: rgb(160, 221, 16);
   letter-spacing: 3px;
+  cursor: pointer;
 }
 
 .buttonDiv {
   display: flex;
   margin-top: 2em;
   justify-content: center;
+}
+
+.start:hover {
+  background-color: rgb(42, 58, 3);
+  color: white;
+  border: 5px solid rgb(112, 112, 112);
+}
+
+.start:active {
+  background-color: rgb(42, 58, 3);
+  color: white;
+  border: 5px solid rgb(112, 112, 112);
+}
+
+.periodDivs {
+  display: flex;
 }
